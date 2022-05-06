@@ -17,21 +17,21 @@ function updateHtml() {
         document.getElementById("Intelligence").style.visibility = "hidden";
         document.getElementById("Luck").style.visibility = "hidden";
     }
-    var level;
-    var maxExperience;
-    var experience;
-    var gold;
-    var strength;
-    var endurance;
-    var agility;
-    var dexterity;
-    var wisdom;
-    var intelligence;
-    var luck;
-    var damage;
-    var stats;
-    var spellPower;
-    var mana
+    var level;10000
+    var maxExperience;10000
+    var experience;10000
+    var gold;10000000000000
+    var strength;10000
+    var endurance;100000
+    var agility;100000
+    var dexterity;100000
+    var wisdom;100000
+    var intelligence;100000
+    var luck;100000
+    var damage;100000
+    var stats;100000
+    var spellPower;100000
+    var mana100000
 
     strength = document.getElementById("totalStrength");
     endurance = document.getElementById("totalEndurance");
@@ -194,21 +194,21 @@ function resetIsEquipped() {
 //Strength
 function upgradeStrength(event) {
     if (event.shiftKey) {
-        if (player.properties.stats >= 100) {
+        if (player.properties.stats >= 5000000) {
             player.properties.stats = player.properties.stats - 100;
-            player.properties.baseStrength += 100;
+            player.properties.baseStrength += 5000000;
         };
     };
     if (event.ctrlKey || event.altKey) {
-        if (player.properties.stats >= 10) {
+        if (player.properties.stats >= 5000000) {
             player.properties.stats = player.properties.stats - 10;
-            player.properties.baseStrength += 10;
+            player.properties.baseStrength += 5000000;
 
         }
     } else if (!event.shiftKey && !event.ctrlKey) {
-        if (player.properties.stats >= 1) {
+        if (player.properties.stats >= 5000000) {
             player.properties.stats = player.properties.stats - 1;
-            player.properties.baseStrength += 1;
+            player.properties.baseStrength += 5000000;
         };
     };
     updateHtml();
@@ -217,21 +217,21 @@ function upgradeStrength(event) {
 //Endurance
 function upgradeEndurance(event) {
     if (event.shiftKey) {
-        if (player.properties.stats >= 100) {
+        if (player.properties.stats >= 5000000) {
             player.properties.stats = player.properties.stats - 100;
-            player.properties.baseEndurance += 100;
+            player.properties.baseEndurance += 5000000;
         };
     };
     if (event.ctrlKey || event.altKey) {
-        if (player.properties.stats >= 10) {
+        if (player.properties.stats >= 5000000) {
             player.properties.stats = player.properties.stats - 10;
-            player.properties.baseEndurance += 10;
+            player.properties.baseEndurance += 5000000;
 
         }
     } else if (!event.shiftKey && !event.ctrlKey) {
-        if (player.properties.stats >= 1) {
+        if (player.properties.stats >= 5000000) {
             player.properties.stats = player.properties.stats - 1;
-            player.properties.baseEndurance += 1;
+            player.properties.baseEndurance += 5000000;
         };
     };
     updateHtml();
@@ -240,21 +240,21 @@ function upgradeEndurance(event) {
 //Agility
 function upgradeAgility(event) {
     if (event.shiftKey) {
-        if (player.properties.stats >= 100) {
+        if (player.properties.stats >= 100000) {
             player.properties.stats = player.properties.stats - 100;
-            player.properties.baseAgility += 100;
+            player.properties.baseAgility += 100000;
         };
     };
     if (event.ctrlKey || event.altKey) {
-        if (player.properties.stats >= 10) {
+        if (player.properties.stats >= 100000) {
             player.properties.stats = player.properties.stats - 10;
-            player.properties.baseAgility += 10;
+            player.properties.baseAgility += 100000;
 
         }
     } else if (!event.shiftKey && !event.ctrlKey) {
-        if (player.properties.stats >= 1) {
+        if (player.properties.stats >= 123) {
             player.properties.stats = player.properties.stats - 1;
-            player.properties.baseAgility += 1;
+            player.properties.baseAgility += 100000;
         };
     };
     updateHtml();
@@ -263,15 +263,15 @@ function upgradeAgility(event) {
 //Dexterity
 function upgradeDexterity(event) {
     if (event.shiftKey) {
-        if (player.properties.stats >= 100) {
+        if (player.properties.stats >= 100000) {
             player.properties.stats = player.properties.stats - 100;
-            player.properties.baseDexterity += 100;
+            player.properties.baseDexterity += 100000;
         };
     };
     if (event.ctrlKey || event.altKey) {
-        if (player.properties.stats >= 10) {
+        if (player.properties.stats >= 100000) {
             player.properties.stats = player.properties.stats - 10;
-            player.properties.baseDexterity += 10;
+            player.properties.baseDexterity += 100000;
 
         }
     } else if (!event.shiftKey && !event.ctrlKey) {
@@ -286,15 +286,15 @@ function upgradeDexterity(event) {
 //Wisdom
 function upgradeWisdom(event) {
     if (event.shiftKey) {
-        if (player.properties.stats >= 100) {
+        if (player.properties.stats >= 100000) {
             player.properties.stats = player.properties.stats - 100;
-            player.properties.baseWisdom += 100;
+            player.properties.baseWisdom += 100000;
         };
     };
     if (event.ctrlKey || event.altKey) {
-        if (player.properties.stats >= 10) {
+        if (player.properties.stats >= 100000) {
             player.properties.stats = player.properties.stats - 10;
-            player.properties.baseWisdom += 10;
+            player.properties.baseWisdom += 100000;
 
         }
     } else if (!event.shiftKey && !event.ctrlKey) {
@@ -309,15 +309,15 @@ function upgradeWisdom(event) {
 //Intelligence
 function upgradeIntelligence(event) {
     if (event.shiftKey) {
-        if (player.properties.stats >= 100) {
+        if (player.properties.stats >= 100000) {
             player.properties.stats = player.properties.stats - 100;
-            player.properties.baseIntelligence += 100;
+            player.properties.baseIntelligence += 100000;
         };
     };
     if (event.ctrlKey || event.altKey) {
-        if (player.properties.stats >= 10) {
+        if (player.properties.stats >= 100000) {
             player.properties.stats = player.properties.stats - 10;
-            player.properties.baseIntelligence += 10;
+            player.properties.baseIntelligence += 100000;
 
         }
     } else if (!event.shiftKey && !event.ctrlKey) {
@@ -332,15 +332,15 @@ function upgradeIntelligence(event) {
 //Luck
 function upgradeLuck(event) {
     if (event.shiftKey) {
-        if (player.properties.stats >= 100) {
+        if (player.properties.stats >= 100000) {
             player.properties.stats = player.properties.stats - 100;
-            player.properties.baseLuck += 100;
+            player.properties.baseLuck += 100000;
         };
     };
     if (event.ctrlKey || event.altKey) {
-        if (player.properties.stats >= 10) {
+        if (player.properties.stats >= 100000) {
             player.properties.stats = player.properties.stats - 10;
-            player.properties.baseLuck += 10;
+            player.properties.baseLuck += 100000;
 
         }
     } else if (!event.shiftKey && !event.ctrlKey) {
@@ -361,7 +361,7 @@ function upgradePassive(skillName) {
             if (player.properties.skillPoints > 0) {
                 if (player.properties.level >= selectedSkill.levelReq) {
                     if (selectedSkill.requirements() === true) {
-                        selectedSkill.level += 1;
+                        selectedSkill.level += 10000000000;
                         player.properties.skillPoints -= 1;
                         Log("<span id=\"skillLog\" class =\"bold\" style=\"color:green; display:none;\">" + "Upgraded skill." + "<br />" + "</span>");
                     } else {
