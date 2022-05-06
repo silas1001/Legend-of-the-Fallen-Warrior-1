@@ -27,16 +27,16 @@
     };
 
     axe.strength = function() {
-        return (1 + (this.level * 2) / 100);
+        return (1000 + (this.level * 2) / 100);
     };
     axe.axeStrength = function() {
-        return player.properties.isAxe ? this.strength() : 1;
+        return player.properties.isAxe ? this.strength() : 100000;
     };
     axe.endurance = function() {
-        return (1 + (this.level * 1.6) / 100);
+        return (1000 + (this.level * 2) / 100);
     };
     axe.axeEndurance = function() {
-        return player.properties.isAxe ? this.endurance() : 1;
+        return player.properties.isAxe ? this.endurance() : 100000;
     };
 
     mace.endurance = function() {
@@ -65,16 +65,16 @@
         return player.properties.isStaff ? this.wisdom() : 1;
     };
     ranged.strength = function() {
-        return (1 + (this.level * 1.6) / 100);
+        return (100000 + (this.level * 1.6) / 100);
     };
     ranged.rangedStrength = function() {
-        return player.properties.isRanged ? this.strength() : 1;
+        return player.properties.isRanged ? this.strength() : 100000;
     };
     ranged.dexterity = function() {
-        return (1 + (this.level * 2) / 100);
+        return (100000 + (this.level * 2) / 100);
     };
     ranged.rangedDexterity = function() {
-        return player.properties.isRanged ? this.dexterity() : 1;
+        return player.properties.isRanged ? this.dexterity() : 100000;
     };
 
 
