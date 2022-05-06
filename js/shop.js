@@ -4,7 +4,7 @@ potionStatus.price = 20;
 var mediumPotionStatus = {};
 mediumPotionStatus.price = 100;
 var superPotionStatus = {};
-superPotionStatus.price = 500;
+superPotionStatus.price = 0;
 
 //Buy Stuff -_-
 function potionBuy(type, count) {
@@ -110,12 +110,12 @@ function buySuperPotion(count) {
 };
 
 var backpackStatus = {};
-backpackStatus.price = 100;
-backpackStatus.multiplier = 1.04;
+backpackStatus.price = 0;
+backpackStatus.multiplier = 0;
 
 var statStatus = {};
-statStatus.price = 500;
-statStatus.multiplier = 1.01;
+statStatus.price = 0;
+statStatus.multiplier = 0;
 
 //Buy Stuff -_-
 function buyStuff(type, count) {
